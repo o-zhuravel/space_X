@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: Roboto_Light;
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Regular;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Bold;
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+
+
+.wrapper {
+    max-width: 1280px;
+    margin: auto;
+    
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+header .models {
+    padding-right: 1%;
+}
+
+header .models a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto_Regular;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #808080;
+    font-family: Roboto_Regular;
+    font-size: 12px;
+}
+
+main .section_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+main .section_1 h1 {
+    font-family: Roboto_Regular;
+    font-size: 64px;
+}
+
+main .section_1 p {
+    line-height: 30px;
+    white-space: pre-line;
+    font-family: Roboto_Light;
+    font-size: 16px;
+    color: #B2B0B2;
+}
+
+main .section_2 {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+/* main .section_2 img {
+    width: 70%;
+} */
+
+main .section_2 .container {
+    display: flex;
+    /* justify-content: space-between; */
+
+    margin-bottom: 200px;
+}
+
+main .section_2 .info h2 {
+    white-space: pre-line;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: Roboto_Bold;
+    font-size: 24px;
+}
+
+main .section_2 .info .container p {
+    font-family: Roboto_Regular;
+    font-size: 18px;
+}
+
+main .section_2 .info .container .characteristic {
+    white-space: nowrap;
+    padding-right: 20%;
+}
+
+main .section_2 .info .container .indicators {
+    white-space: nowrap;
+}
+
+main .section_2 .info .container .indicators span {
+    color: #B2B0B2;
+}
+
+main .section_2 .info .text {
+    line-height: 30px;
+    font-family: Roboto_Regular;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+}
+
+footer {
+    font-family: Roboto_Regular;
+    font-size: 18px;
+}
+
+footer img {
+    margin-bottom: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+footer p {
+    color: #808080;
+    padding: 5%;
+}
+
+footer .button {
+    padding: 3% 10%;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+@media (max-width: 800px) {
+    footer .social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .social a {
+        margin-bottom: 20px;
+    }
+
+    header .models {
+        display: flex;
+        flex-direction: column;
+    }
+main .section_2 {
+        flex-direction: column;
+    }
+}
